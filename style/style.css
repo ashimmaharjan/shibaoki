@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    background-image: url('../images/hero-banner-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1023px;
+}
+
+.contract-input {
+    border: 3px solid #006837;
+}
+
+.primary-button {
+    background: #4F2E90;
+    color: #ffffff;
+}
+
+.secondary-button {
+    background: #FF0000;
+    color: #ffffff;
+}
+
+.video-player {
+    height: 550px;
+}
+
+#coming-soon {
+    background: #7B9B49;
+}
+
+.my-links {
+    color: #314907;
+}
+
+.tokenomics-content {
+    width: 100%;
+    background: url('../images/takenomics-background.png');
+    height: 1522px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 320px;
+}
+
+.takenomic-ribbon {
+    background: url('../images/ribbon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tokenomics-description {
+    text-align: right;
+}
+
+.shiba-road-map {
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    background: url('../images/roadmap-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    margin-top: -160px;
+}
+
+.road-map-desc {
+    text-align: right;
+}

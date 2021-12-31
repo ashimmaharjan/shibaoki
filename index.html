@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+    <title>Shibaoki</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="w-full bg-gray-300 pt-8 relative bg-blue-400 hero-section">
+            <div class="flex justify-end items-center pr-14 space-x-10 text-white">
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="absolute w-full h-24 flex flex-col justify-center items-center bottom-24">
+                <!-- Contact Address -->
+                <div class="w-full flex space-x-2 justify-center">
+                    <div class="w-2/4 h-12 rounded-2xl bg-white contract-input px-3 flex items-center">
+                        <p class="text-sm"> CONTRACT ADDRESS: 0x80dc7bd1328ffeje9fu900j22884169ba46f9279201b</p>
+                    </div>
+                    <button class="px-10 py-1 primary-button text-white rounded-2xl shadow"> Copy </button>
+                </div>
+
+                <div class="flex justify-center space-x-10 mt-8 items-center text-xl">
+                    <a href="" class="border-b border-red-600 pb-1 my-links">See Chart</a>
+                    <button class="px-8 py-2.5 text-white rounded-2xl secondary-button border border-white"> Buy Now
+                    </button>
+                    <a href="" class="border-b border-red-600 pb-1 my-links"> How to Buy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Coming Soon -->
+    <section id="coming-soon" class="h-auto flex flex-col justify-center items-center text-white">
+        <div class="w-4/5 bg-gray-600 h-1/2">
+            <iframe src="https://www.youtube.com/embed/xxzBTdZJm9Q" class="mx-auto w-full video-player"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class=" w-4/5 px-5 mt-5">
+            <div class="flex justify-between items-center">
+                <h1 class="text-3xl">Full Game coming soon</h1>
+                <button
+                    class="px-8 py-2 text-white rounded-2xl secondary-button inline-flex items-center border border-white shadow">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                            clip-rule="evenodd" />
+                    </svg> Play Game Preview
+
+                </button>
+            </div>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea id nemo unde
+                adipisci
+                earum,
+                dicta enim autem error doloribus saepe velit corporis ut culpa et sit corrupti voluptatibus
+                fuga.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 mt-5">
+                <div class="col-span-1 flex flex-col space-y-3 justify-center items-center">
+                    <div class="inline-flex space-x-5 items-center">
+                        <img src="./images/cake.png" class="object-cover w-10 h-10" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="inline-flex space-x-5 items-center">
+                        <img src="./images/cake.png" class="object-cover w-10 h-10" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div class="inline-flex space-x-5 items-center">
+                        <img src="./images/cake.png" class="object-cover w-10 h-10" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                </div>
+
+                <div class="col-span-1 flex flex-col space-y-3 justify-center items-center">
+                    <!-- <button class="inline-flex items-center bg-gray-900 px-3 py-2 w-28">
+                      
+                        Available on <br>
+                        <b>App Store</b></button> -->
+
+                    <button class="bg-gray-900 px-3 py-2 rounded-lg">
+                        <div class="flex justify-between items-center">
+                            <i class="fab fa-apple mr-2 fa-2xl"></i>
+                            <div>
+                                <p class="text-xs">Download on the</p>
+                                <p class="font-sans font-semibold">App Store</p>
+                            </div>
+                        </div>
+                    </button>
+
+                    <button class="bg-gray-900 px-3 py-2 rounded-lg">
+                        <div class="flex justify-between items-center">
+                            <i class="fab fa-google-play fa-xl mr-3"></i>
+                            <div>
+                                <p class="text-xs"> Android App on</p>
+                                <p class="font-serif">Google play</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics -->
+    <section>
+        <div class="tokenomics-content relative">
+            <div class="mx-auto takenomic-ribbon mx-auto" id="tokenomics">
+                <h1 class="text-5xl text-white -mt-8"> Tokenomics </h1>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 mt-20 text-gray-600 px-28 gap-y-14">
+                <div class="col-span-1 flex items-center justify-end space-x-10">
+                    <div class="tokenomics-description">
+                        <h1 class="text-4xl text-red-600">Liquidity</h1>
+                        <p class="mt-2 text-lg">Tokenomics short description and infoscript</p>
+                    </div>
+                    <img src="/images/cake-2.png" class="w-28 h-28 object-contain" alt="">
+                </div>
+                <div class="col-span-1 flex flex-col justify-center items-center -mt-20">
+                    <img src="/images/cake-6.png" class="w-28 h-28 object-contain" alt="">
+                    <div class="text-center">
+                        <h1 class="mt-3 text-4xl text-red-600">Liquidity</h1>
+                        <p class="mt-2 text-lg">Tokenomics short description
+                            <br> and infoscript
+                        </p>
+                    </div>
+                </div>
+                <div class="col-span-1 flex items-center space-x-10">
+                    <img src="/images/cake-3.png" class="w-28 h-28 object-contain" alt="">
+                    <div>
+                        <h1 class="text-4xl text-red-600">Liquidity</h1>
+                        <p class="mt-2 text-lg">Tokenomics short description and infoscript</p>
+                    </div>
+                </div>
+                <div class="col-span-1 flex items-center justify-end space-x-10">
+                    <div class="tokenomics-description">
+                        <h1 class="text-4xl text-red-600">Liquidity</h1>
+                        <p class="mt-2 text-lg">Tokenomics short description and infoscript</p>
+                    </div>
+                    <img src="/images/cake-5.png" class="w-28 h-28 object-contain" alt="">
+                </div>
+                <div class="col-span-1 hidden md:block">
+
+                </div>
+                <div class="col-span-1 flex items-center space-x-10">
+                    <img src="/images/cake-4.png" class="w-28 h-28 object-contain" alt="">
+                    <div>
+                        <h1 class="text-4xl text-red-600">Liquidity</h1>
+                        <p class="mt-2 text-lg">Tokenomics short description and infoscript</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="relative">
+        <div class="shiba-road-map">
+            <div class="takenomic-ribbon ml-20" id="roadmap">
+                <h1 class="text-5xl text-white -mt-8"> Roadmap </h1>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-20 -mt-16 px-24 pt-12">
+                <div class="col-span-1 h-auto mt-16 road-map-desc">
+                    <h1 class="text-red-600 text-5xl">Q1 2022</h1>
+                    <p class="text-lg mt-2">Roadmap short <br> description and <br> infoscript</p>
+                </div>
+                <div class="col-span-1 h-auto road-map-desc -mt-5 pr-10">
+                    <h1 class="text-red-600 text-5xl">Q2 2022</h1>
+                    <p class="text-lg mt-2">Roadmap short <br> description and <br> infoscript</p>
+                </div>
+                <div class="col-span-1 h-auto mt-12 road-map-desc pr-11">
+                    <h1 class="text-red-600 text-5xl">Q3 2022</h1>
+                    <p class="text-lg mt-2">Roadmap short <br> description and <br> infoscript</p>
+                </div>
+                <div class="col-span-1 h-auto road-map-desc pr-10">
+                    <h1 class="text-red-600 text-5xl">Q4 2022</h1>
+                    <p class="text-lg mt-2">Roadmap short <br> description and <br> infoscript</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
